@@ -32,7 +32,7 @@ def tree(expression):
     else:
         return expression
 
-# Contoh penggunaan
+# Contoh penggunaan tree
 expression_tree = ((2, '+', 3), '*', (5, '-', 1))
 result = tree(expression_tree)
 print("Hasil evaluasi pohon ekspresi:", result)
